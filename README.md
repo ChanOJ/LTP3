@@ -131,23 +131,23 @@ pass-cli run --env-file infra/secrets.env -- python3 scripts/deploy.py --dry-run
 cd infra && pass-cli run --env-file secrets.env -- tofu plan
 ```
 
-## First setup
+## First setup (done on 2026-11-23, kept as a record)
 
-1. Write `site.json` and validate offline (secrets are the shared ones of the other old sites):
+1. Write `site.json` and validate offline (done on 2026-11-23; secrets are the shared ones of the other old sites):
 
    ```bash
    scripts/bootstrap.sh new LTP3 ltp3 ltp3 ltp3.sauthier.family
    ```
 
-2. Create the GitHub repository and its secrets, push, open the PR:
+2. Create the GitHub repository and its secrets, push, open the PR (done on 2026-11-23):
 
    ```bash
    scripts/bootstrap.sh github
    ```
 
-3. After merge, run the *Infra: bunny.net* workflow with action `apply`: it creates the zones,
+3. After merge, run the *Infra: bunny.net* workflow with action `apply` (done on 2026-11-23): it creates the zones,
    hostname and edge rules, deploys `site/` and runs the smoke test.
-4. At Infomaniak (Manager > Domaines > sauthier.family > Zone DNS), add a CNAME
+4. At Infomaniak (Manager > Domaines > sauthier.family > Zone DNS), add a CNAME (done on 2026-11-23)
    `ltp3` -> `ltp3.b-cdn.net`. The certificate is issued once DNS answers; re-run the smoke test
    (*Monitoring: weekly smoke test*, manual run) after a few minutes.
 
