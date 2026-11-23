@@ -70,13 +70,13 @@ def check_hardening(base: str) -> list[str]:
         errors.append(f"POST /: {e}")
     try:
         # The charset header comes from a file-extension rule: "/" has no extension, so check a page.
-        with urllib.request.urlopen(urllib.request.Request(base + "/index.htm", headers={"User-Agent": "smoke-test"}), timeout=30) as r:
+        with urllib.request.urlopen(urllib.request.Request(base + "/index.html", headers={"User-Agent": "smoke-test"}), timeout=30) as r:
             h = {k.lower(): v for k, v in r.headers.items()}
             for name in ("content-security-policy", "x-content-type-options", "x-frame-options", "referrer-policy", "cross-origin-opener-policy"):
                 if name not in h:
-                    errors.append(f"/index.htm: missing header {name}")
+                    errors.append(f"/index.html: missing header {name}")
             if "iso-8859-1" not in h.get("content-type", "").lower():
-                errors.append(f"/index.htm: Content-Type {h.get('content-type')!r} lacks charset iso-8859-1")
+                errors.append(f"/index.html: Content-Type {h.get('content-type')!r} lacks charset iso-8859-1")
         # Upper-case extension: the charset rule must match it too.
         with urllib.request.urlopen(urllib.request.Request(base + "/home.shtml", headers={"User-Agent": "smoke-test"}), timeout=30) as r:
             ct = r.headers.get("Content-Type", "")
