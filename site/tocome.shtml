@@ -1,0 +1,229 @@
+<html>
+
+<head>
+	<title>LTP3 - Make A Wish !</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" link="#FF9900" vlink="#999999">
+<center>
+<table width=760 cellspacing=0 cellpadding=0 border=0>
+	<tr>
+		<td width=230 valign="top">
+			<script language="JavaScript">
+<!--
+if (document.images) {
+
+img_compos = new Image();
+img_compos.src='on/compos.gif';
+img_contact = new Image();
+img_contact.src='on/contact.gif';
+img_forum = new Image();
+img_forum.src='on/forum.gif';
+img_home = new Image();
+img_home.src='on/home.gif';
+img_infos = new Image();
+img_infos.src='on/infos.gif';
+img_register = new Image();
+img_register.src='on/register.gif';
+img_transport = new Image();
+img_transport.src='on/transport.gif';
+
+}
+
+function di(id,name){
+  if (document.images) {document.images[id].src=eval(name+".src"); }
+}
+
+// function that displays status bar message
+
+function dm(msgStr) {
+  document.returnValue = false;
+  if (document.images) { 
+     window.status = msgStr;
+     document.returnValue = true;
+  }
+}
+var showMsg = navigator.userAgent != "Mozilla/4.0 (compatible; MSIE 4.0; Mac_PowerPC)";
+function dmim(msgStr) {
+  document.returnValue = false;
+  if (showMsg) { 
+    window.status = msgStr;
+    document.returnValue = true;
+  }
+}
+
+function MM_swapImgRestore() { //v2.0
+  if (document.MM_swapImgData != null)
+    for (var i=0; i<(document.MM_swapImgData.length-1); i+=2)
+      document.MM_swapImgData[i].src=document.MM_swapImgData[i+1];
+}
+
+function MM_swapImage() { //v2.0
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src=MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+//-->
+</script>
+
+<table border="0" cellpadding="0" cellspacing="0" width="223">
+<tr>
+  <td rowspan="1" colspan="2"><img name="Nmenu_01_01" src="img/menu_01_01.jpg" width="223" height="150" border="0"></td>
+</tr>
+<tr><!-- row 02 --> 
+  <td rowspan="7" colspan="1" width="74"><img name="Nmenu_02_01" src="img/menu_02_01.jpg" width="74" height="189" border="0"></td>
+  <td rowspan="1"><a href="home.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.home','document.home','on/home.gif','#931951924968')"><img name="home" src="img/home.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 03 --> 
+  <td><a href="info.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.infos','document.infos','on/infos.gif','#931952505156')"><img name="infos" src="img/infos.gif" width="149" height="25" border="0"></a></td>
+</tr>
+<tr><!-- row 05 --> 
+  <td><a href="competition.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.compos','document.compos','on/compos.gif','#931952600421')"><img name="compos" src="img/compos.gif" width="149" height="30" border="0"></a></td>
+</tr>
+<tr><!-- row 07 --> 
+  <td rowspan="1"><a href="/cartrips.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.transport','document.transport','on/transport.gif','#931952666359')"><img name="transport" src="img/transport.gif" width="149" height="26" border="0"></a></td>
+</tr>
+<tr><!-- row 08 --> 
+  <td rowspan="1"><a href="reserve.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.register','document.register','on/register.gif','#931952680750')"><img name="register" src="img/register.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 09 --> 
+  <td rowspan="1"><a href="/forum.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.forum','document.forum','on/forum.gif','#931952739609')"><img name="forum" src="img/forum.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 10 --> 
+  <td rowspan="1"><a href="contact.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.contact','document.contact','on/contact.gif','#931952748609')"><img name="contact" src="img/contact.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 11 --> 
+  <td rowspan="1" colspan="1" width="74"> </td>
+  <td rowspan="1" colspan="1" width="155"> 
+    <div align="left"><img name="Nmenu_11_02" src="img/menu_11_02.gif" width="69" height="69" border="0"></div>
+  </td>
+</tr>
+</table>
+		</td>
+		<td width=530>
+			<table cellspacing=0 cellpadding=0 border=0 width=530 align="left">
+			<tr valign="top">
+			  <td>
+				<p align="right">
+					<img src="img/howto.jpg" width="349" height="79">
+				</p>
+				
+	      <p align="left"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		<font color="#FF9900"><b>By plane</b></font> </font></p>
+	      <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		<center>
+		  <p>Take the plane to Paris.<br>
+		    You'll land on <i>Orly</i> or <i>Roissy Charles de Gaulle</i>.</p>
+		  <p>&nbsp;</p>
+		  <p><u>Orly -&gt; Crosne</u> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">(map 
+		    -&gt; <a href="http://www.ratp.fr/Images/Plans/Pdf/rer.pdf" target="_blank">pdf</a>, 
+		    <a href="http://www.ratp.fr/Pla_q/Pla_r/Pla_r_rsx_g/rer.htm#debut" target="_blank">gif</a>)</font></font></p>
+		  <p> Take the <i>OrlyVal</i> to <i>Antony</i>. Take the <i>RER 
+		    B</i> to <i>Ch&acirc;telet les Halles</i>.</p>
+		  
+		<p> Take the <i>RER D</i> (D2 subline) <font face="Verdana, Arial, Helvetica, sans-serif" size="2">to 
+		  the <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><i>Montgeron</i></font><i>-Crosne</i> 
+		  station.<br>
+		  Then follow the <a href="#feet">By Feet</a> section.</font></p>
+		  <p>&nbsp;</p>
+		  <p><u>Roissy Charles de Gaulle -&gt; Crosne</u> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">(map 
+		    -&gt; <a href="http://www.ratp.fr/Images/Plans/Pdf/rer.pdf" target="_blank">pdf</a>, 
+		    <a href="http://www.ratp.fr/Pla_q/Pla_r/Pla_r_rsx_g/rer.htm#debut" target="_blank">gif</a>)</font></font></font></p>
+		  <p> Take the <i>RER B</i> to <i>Gare du Nord</i> or <i>Ch&acirc;telet 
+		    les Halles</i>.</p>
+		  
+		<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Take 
+		  the <i>RER D</i> (D2 subline) <font face="Verdana, Arial, Helvetica, sans-serif" size="2">to 
+		  the <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><i>Montgeron</i></font><i>-Crosne</i> 
+		  station.<br>
+		  <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Then 
+		  follow the <a href="#feet">By Feet</a> section.</font> </font></font></p>
+		</center>
+		</font><p></p>
+	      <p align="left">&nbsp;</p>
+	      <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font color="#FF9900"><b>By 
+		train</b></font> </font></p>
+	      <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		<center>
+		  <p><u>From France</u></p>
+		  
+		<p>Follow this link <a href="http://www.sncf.fr/cgi-bin/riho/riho?dep_0=&amp;arr=montgeron-crosne&amp;jour=27&amp;mois=08&amp;annee=99&amp;heure=10&amp;minute=00&amp;h=1&amp;action=Envoi+de+la+demande" target="_blank">www.sncf.fr</a> 
+		  :-)</p>
+		<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Then 
+		  follow the <a href="#feet">By Feet</a> section.</font></font></p>
+		<p>&nbsp;</p>
+		  <p><u>From other Countries</u></p>
+		  <p>Take the train to Paris.</p>
+		  <p>If necessary, take the Metro (U-Bahn or Subway, as you want 
+		    ;) to the<br>
+		    next <i>RER D</i> station (map -&gt; <a href="http://www.ratp.fr/Images/Plans/Pdf/metro.pdf" target="_blank">pdf</a>, 
+		    <a href="http://www.ratp.fr/Pla_q/Pla_r/Pla_r_rsx_g/metro.htm#debut" target="_blank">gif</a>).</p>
+		  <p>Take the <i>RER D</i> (D2 subline) to the <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><i>Montgeron</i></font><i>-Crosne</i> 
+		    station.<br>
+		    It takes about 20mn (map -&gt; <a href="http://www.ratp.fr/Images/Plans/Pdf/rer.pdf" target="_blank">pdf</a>, 
+		    <a href="http://www.ratp.fr/Pla_q/Pla_r/Pla_r_rsx_g/rer.htm#debut" target="_blank">gif</a>).</p>
+		  
+		<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Then 
+		  follow the <a href="#feet">By Feet</a> section.</font></font></p>
+		  <p align="left">&nbsp; </p>
+		  
+		<p align="left"> <font color="#FF9900"><b>By road (car, bus, bicycle, 
+		  ...)</b></font></p>
+		</center>
+		<center>
+		<p> <i>Crosne</i> is close to <i>Villeneuve St Georges</i>,<br>
+		  south-east close to <i>Paris</i>, on the right of the <i>A&eacute;roport 
+		  d'Orly</i> airport.<br>
+		  <a href="img/carte1b.jpg" target="_blank">Here is a map</a> 
+		  (492 kB, 1991).<br>
+		  <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Crosne 
+		  is in a green circle</font> and the Party Place is pointed by 
+		  a green cross.</p>
+		<p><a href="img/carte2.jpg" target="_blank">Here</a> is a bigger 
+		  map (416 kB, 1987) for those who come from North or East.</p>
+		<p align="left">&nbsp; </p>
+	      </center>
+		</font>
+	      <p></p>
+	      <center>
+		<p align="left"><font color="#FF9900" face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><a name="feet"></a>By 
+		  feet</b></font> </p>
+	      </center>
+	      <center>
+		<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		  The way from <i>Montgeron-Crosne</i> railway station to the 
+		  party place is VERY simple. <a href="img/carte3.jpg" target="_blank">Here 
+		  is a map</a> (18 kB, 1991).</font><font face="Verdana, DejaVu Sans, Geneva, sans-serif" size="2"> 
+		  Textually, you must take on your left after the bicycle parking, 
+		  walk about 500m and when you cannot continue straight ahead 
+		  then take on your left, walk about 300m and you'll arrive to 
+		  the party place.</font></p>
+		<p><font face="Verdana, DejaVu Sans, Geneva, sans-serif" size="2">There is also a bus every hour 
+		  between the Railway Station and the party place. The line is 
+		  name <i>E</i> and the stop for the party place is named <i>Boileau</i>. 
+		  </font></p>
+		<p><font face="Verdana, DejaVu Sans, Geneva, sans-serif" size="2">Here is a nice picture of the 
+		  room :</font></p>
+		<p><font face="Verdana, DejaVu Sans, Geneva, sans-serif" size="2"> <img src="img/panoramic.jpg" width="530" height="155"> 
+		  </font></p>
+	      </center>
+	      </td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</center>
+</body>
+</html>

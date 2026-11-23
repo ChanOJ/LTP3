@@ -1,0 +1,169 @@
+<html>
+
+<head>
+	<title>LTP3 - Make A Wish !</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" link="#FF9900" vlink="#999999">
+<center>
+  <table width=760 cellspacing=0 cellpadding=0 border=0>
+    <tr valign="top"> 
+      <td width=230> <script language="JavaScript">
+<!--
+if (document.images) {
+
+img_compos = new Image();
+img_compos.src='on/compos.gif';
+img_contact = new Image();
+img_contact.src='on/contact.gif';
+img_forum = new Image();
+img_forum.src='on/forum.gif';
+img_home = new Image();
+img_home.src='on/home.gif';
+img_infos = new Image();
+img_infos.src='on/infos.gif';
+img_register = new Image();
+img_register.src='on/register.gif';
+img_transport = new Image();
+img_transport.src='on/transport.gif';
+
+}
+
+function di(id,name){
+  if (document.images) {document.images[id].src=eval(name+".src"); }
+}
+
+// function that displays status bar message
+
+function dm(msgStr) {
+  document.returnValue = false;
+  if (document.images) { 
+     window.status = msgStr;
+     document.returnValue = true;
+  }
+}
+var showMsg = navigator.userAgent != "Mozilla/4.0 (compatible; MSIE 4.0; Mac_PowerPC)";
+function dmim(msgStr) {
+  document.returnValue = false;
+  if (showMsg) { 
+    window.status = msgStr;
+    document.returnValue = true;
+  }
+}
+
+function MM_swapImgRestore() { //v2.0
+  if (document.MM_swapImgData != null)
+    for (var i=0; i<(document.MM_swapImgData.length-1); i+=2)
+      document.MM_swapImgData[i].src=document.MM_swapImgData[i+1];
+}
+
+function MM_swapImage() { //v2.0
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src=MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+//-->
+</script>
+
+<table border="0" cellpadding="0" cellspacing="0" width="223">
+<tr>
+  <td rowspan="1" colspan="2"><img name="Nmenu_01_01" src="img/menu_01_01.jpg" width="223" height="150" border="0"></td>
+</tr>
+<tr><!-- row 02 --> 
+  <td rowspan="7" colspan="1" width="74"><img name="Nmenu_02_01" src="img/menu_02_01.jpg" width="74" height="189" border="0"></td>
+  <td rowspan="1"><a href="home.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.home','document.home','on/home.gif','#931951924968')"><img name="home" src="img/home.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 03 --> 
+  <td><a href="info.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.infos','document.infos','on/infos.gif','#931952505156')"><img name="infos" src="img/infos.gif" width="149" height="25" border="0"></a></td>
+</tr>
+<tr><!-- row 05 --> 
+  <td><a href="competition.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.compos','document.compos','on/compos.gif','#931952600421')"><img name="compos" src="img/compos.gif" width="149" height="30" border="0"></a></td>
+</tr>
+<tr><!-- row 07 --> 
+  <td rowspan="1"><a href="/cartrips.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.transport','document.transport','on/transport.gif','#931952666359')"><img name="transport" src="img/transport.gif" width="149" height="26" border="0"></a></td>
+</tr>
+<tr><!-- row 08 --> 
+  <td rowspan="1"><a href="reserve.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.register','document.register','on/register.gif','#931952680750')"><img name="register" src="img/register.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 09 --> 
+  <td rowspan="1"><a href="/forum.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.forum','document.forum','on/forum.gif','#931952739609')"><img name="forum" src="img/forum.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 10 --> 
+  <td rowspan="1"><a href="contact.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.contact','document.contact','on/contact.gif','#931952748609')"><img name="contact" src="img/contact.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 11 --> 
+  <td rowspan="1" colspan="1" width="74"> </td>
+  <td rowspan="1" colspan="1" width="155"> 
+    <div align="left"><img name="Nmenu_11_02" src="img/menu_11_02.gif" width="69" height="69" border="0"></div>
+  </td>
+</tr>
+</table>
+		</td>
+		
+      <td width=530> 
+	<table cellspacing=0 cellpadding=0 border=0 width=530 align="left">
+			    <tr> 
+			      <td align="center"> 
+			        
+	      <table border="0" width="100%" align="CENTER" cellspacing="4" cellpadding="0">
+		<tr align="left"> 
+		  <td valign="TOP"> 
+		    <div align="right"> 
+		      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr> 
+			  <td width="49%" valign="top" align="left"> 
+			    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF9933"><br>
+			      French</font><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+			      people <font color="#FFFFFF">reservation are closed 
+			      !</font></font></p>
+			    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF9933">Foreign</font><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+			      (non-french ;) people <font color="#FF9900">MUST<br>
+			      </font> send 
+			      us an e-mail where they write the date and time 
+			      they are supposed to arrive at the party place.</font></p>
+			    <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9933">Girls</font><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+			      coming with a computer <font color="#FF9933">MUST</font> 
+			      reserve a seat by e-mail</font></p>
+			  </td>
+			  <td align="right" valign="top" width="51%"> 
+			    <div align="right"><img src="img/register_big.gif" width="253" height="147" align="top"></div>
+			  </td>
+			</tr>
+		      </table>
+		      <div align="left"> 
+			<p><br>
+			  <font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FF9900">There 
+			  are <b>ONLY</b> 0 free seats left out of the 300 the 
+			  room can contain. Don't forget that we have only 300 
+			  places for computers and ~400 for peoples.<br>
+			  Here are the ones who have already reserved, means we 
+			  received their entrance fee (or confirmation for foreigners 
+			  and girls) <i> (older registrations first)</i> :</font></p>
+		      </div>
+		    </div>
+		  </td>
+		</tr>
+	      </table>
+			        
+	      <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#808080">[ archived: the lists of the people who had registered (online, by cheque, girls, foreigners, organizers) are not published ]</font></p>
+
+	      </td>
+			    </tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</center>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# Files that must NOT be published (relative to site/; no '/' = basename anywhere; '*' crosses '/').
+# Read by scripts/statify.py, scripts/verify_build.py and scripts/check_excludes.py.
+# The ASP pages kept (forum.asp, cartrips.asp) are rendered to .html by statify.py;
+# their sources, like every other .asp/.inc, are never copied.
+
+# OS junk and backups
+.DS_Store
+Thumbs.db
+*.bak
+# server-side code: ASP sources (getadmin.asp, reserve.asp, ...), SSI fragments (menu.inc is inlined in the pages)
+*.asp
+*.inc
+# credentials, shell dotfiles and import scripts of the server (never copied into http/, listed as a safety net)
+logins
+carlogins
+.bash*
+.Xdefaults
+.inputrc
+csv2sql_*.vbs
+votes.bak
