@@ -1,0 +1,541 @@
+<html>
+
+<head>
+	<title>LTP3 - Make A Wish !</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" link="#FF9900" vlink="#999999">
+<center>
+  <table width=760 cellspacing=0 cellpadding=0 border=0>
+	<tr>
+		
+	  <td width=230 valign="top"> <script language="JavaScript">
+<!--
+if (document.images) {
+
+img_compos = new Image();
+img_compos.src='on/compos.gif';
+img_contact = new Image();
+img_contact.src='on/contact.gif';
+img_forum = new Image();
+img_forum.src='on/forum.gif';
+img_home = new Image();
+img_home.src='on/home.gif';
+img_infos = new Image();
+img_infos.src='on/infos.gif';
+img_register = new Image();
+img_register.src='on/register.gif';
+img_transport = new Image();
+img_transport.src='on/transport.gif';
+
+}
+
+function di(id,name){
+  if (document.images) {document.images[id].src=eval(name+".src"); }
+}
+
+// function that displays status bar message
+
+function dm(msgStr) {
+  document.returnValue = false;
+  if (document.images) { 
+     window.status = msgStr;
+     document.returnValue = true;
+  }
+}
+var showMsg = navigator.userAgent != "Mozilla/4.0 (compatible; MSIE 4.0; Mac_PowerPC)";
+function dmim(msgStr) {
+  document.returnValue = false;
+  if (showMsg) { 
+    window.status = msgStr;
+    document.returnValue = true;
+  }
+}
+
+function MM_swapImgRestore() { //v2.0
+  if (document.MM_swapImgData != null)
+    for (var i=0; i<(document.MM_swapImgData.length-1); i+=2)
+      document.MM_swapImgData[i].src=document.MM_swapImgData[i+1];
+}
+
+function MM_swapImage() { //v2.0
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src=MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+//-->
+</script>
+
+<table border="0" cellpadding="0" cellspacing="0" width="223">
+<tr>
+  <td rowspan="1" colspan="2"><img name="Nmenu_01_01" src="img/menu_01_01.jpg" width="223" height="150" border="0"></td>
+</tr>
+<tr><!-- row 02 --> 
+  <td rowspan="7" colspan="1" width="74"><img name="Nmenu_02_01" src="img/menu_02_01.jpg" width="74" height="189" border="0"></td>
+  <td rowspan="1"><a href="home.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.home','document.home','on/home.gif','#931951924968')"><img name="home" src="img/home.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 03 --> 
+  <td><a href="info.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.infos','document.infos','on/infos.gif','#931952505156')"><img name="infos" src="img/infos.gif" width="149" height="25" border="0"></a></td>
+</tr>
+<tr><!-- row 05 --> 
+  <td><a href="competition.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.compos','document.compos','on/compos.gif','#931952600421')"><img name="compos" src="img/compos.gif" width="149" height="30" border="0"></a></td>
+</tr>
+<tr><!-- row 07 --> 
+  <td rowspan="1"><a href="/cartrips.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.transport','document.transport','on/transport.gif','#931952666359')"><img name="transport" src="img/transport.gif" width="149" height="26" border="0"></a></td>
+</tr>
+<tr><!-- row 08 --> 
+  <td rowspan="1"><a href="reserve.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.register','document.register','on/register.gif','#931952680750')"><img name="register" src="img/register.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 09 --> 
+  <td rowspan="1"><a href="/forum.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.forum','document.forum','on/forum.gif','#931952739609')"><img name="forum" src="img/forum.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 10 --> 
+  <td rowspan="1"><a href="contact.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.contact','document.contact','on/contact.gif','#931952748609')"><img name="contact" src="img/contact.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 11 --> 
+  <td rowspan="1" colspan="1" width="74"> </td>
+  <td rowspan="1" colspan="1" width="155"> 
+    <div align="left"><img name="Nmenu_11_02" src="img/menu_11_02.gif" width="69" height="69" border="0"></div>
+  </td>
+</tr>
+</table>
+		</td>
+		
+	  <td width=530> 
+		<table cellspacing=0 cellpadding=0 border=0 width=530 align="left">
+			  <tr>
+				<td valign=top align=center>
+				  
+					  <img src="img/lucky.gif" width="403" height="61"><br>
+					  <font face="Verdana, Arial, Helvetica, sans-serif" size="+1"><font size="4" face="Arial, Helvetica, sans-serif"><b> 
+					  <br>LTP3 is officialy closed<br>
+					  <br>
+					  Main orgs and staff send greetings to all groups at the 
+					  party, all foreigners (specialy tpolm crew, nostalgia crew 
+					  and haujobb). Here are the <a href="results.shtml"> final-results</a>.<br><br>
+					  Read some after-party infos <a href="bilan.shtml">here</a>.<br><br>
+					  Thanks for your support and see you at LTP 4.<br>
+					  <br>
+					  <i>Yes / Orange Juice<br>
+					  Chandra / Orange Juice</i></b></font></font></center><br>
+				  </td>
+				</tr>
+				<tr align="right"> 
+				  <td valign=top> <font face="arial" size="-1"> </font> 
+					<p align="center"> <font face="Verdana, DejaVu Sans, Geneva, sans-serif" size="1"><br>
+					  </font> <font face="Arial, Helvetica, sans-serif" size="2"><b>Get 
+					  the invitation intro ! (1.63 MB) <a href="ltp3-invitation.zip">local</a> 
+					  / <a href="ftp://ftp.scene.org/pub/incoming/TAKEOVER99/demo/ltp3-syndrome.zip">scene.org</a><br>
+					  </b></font><br>
+					<p align="right"> 
+					  <center>
+						<img src="img/testfir2.gif"> 
+					  </center>
+					  <tr align="left" valign="top"> 
+						<td> <br>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>09/05/1999</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>GETTING A TSHIRT<br>
+								</b><br>
+								Sorry it is possible only for people living in France.<br><br>
+								<i>On re-tire une s&eacute;rie de t-shirts, avec de meilleures 
+								couleurs (vous pouvez <a href="tshirt.html" target="_blank">matter</a> 
+								le logo tel qu'il aurai du &ecirc;tre), &agrave; condition 
+								que l'on recoive assez de commandes. 
+								Pour en recevoir un, envoyez un ch&egrave;que (ou ce que 
+								vous voulez du moment qu'on le recoit) de 95 FF minimum 
+								(les frais de port sont compris, et le *minimum* c'est pour 
+								ceux qui font chier &agrave; donner des billets de 100 balles 
+								;-) <b>AVANT LE 1er OCTOBRE 1999</b> &agrave; l'ordre de 
+								:</i></font></p>
+								<blockquote> 
+								<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><i>Association 
+								Orange Juice<br>
+								[postal address removed]</i></font></p>
+								</blockquote>
+								<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><i>Pr&eacute;cisez 
+								votre nom complet, votre adresse et votre e-mail pour que 
+								je puisse vous tenir au courant de l'&eacute;volution des 
+								commandes. On n'encaissera les sous que lors de l'impression 
+								des tshirts evidemment.<br>
+								BONUS: on file un flyer LTP en prime :)</i></font></p>
+								</font>
+							  </td>
+							</tr>
+						  </table>
+						  <br>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>08/25/1999</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>LAST NEWS<br>
+								</b><br>
+								  We have NO places left ! So please don't come if you did 
+								  not make a reservation.<br>
+								  Nous n'avons plus de places. Si vous n'avez pas reserv&eacute; 
+								  ne venez pas !!<br>
+								  <br>
+								  Voici le num&eacute;ro de la salle pour nous joindre si 
+								  vous vous perdez ou si vous voulez connaitre le nombre de 
+								  place : ???? </font>
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Here 
+								  is the phone number of the party place if you get lost or 
+								  if you want to know how many places are left : ????<br>
+								  <br>
+								  LTP3 TIPS : A LA LTP, je prend mon ventilateur et mes multiprises.<br>
+								  LTP3 TIPS : At the LTP, i will bring my own fan and powerbar.<br></font>
+							  </td>
+							</tr>
+						  </table>
+						  <br>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>08/21/99</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>NETWORK INFORMATION<br>
+								</b><br>
+								The network is going to be RJ45 AND BNC based with 
+								switches. We can't promise to provide hubs for everybody 
+								so please bring your own hubs and cables.<br>
+								<br>
+								We will put a scene.org mirror, a local ftp, a local 
+								irc (hehe) plus the possibility to hand in releases 
+								and votes through the intranet-server.<br></font> 
+							  </td>
+							</tr>
+						  </table>
+						  <br>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>08/21/99</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>PRODUCTIONS 
+								  FOR NON PRESENT PEOPLE and DEADLINE<br>
+								  </b><br>
+								  To participate at LTP compos without to be here, 
+								  you must send your production with<br>
+								  <br>
+								  Your Handle, real name and adress.<br>
+								  The name of the production<br>
+								  The compo<br>
+								  Your recommandations for organizers.<br>
+								  A .nfo file<br>
+								  <br>
+								  All of this must be send to this email 
+								  before <b>THURSDAY 26 05h00am</b> ! Thanks for 
+								  your work !!!</font> 
+							  </td>
+							</tr>
+						  </table>
+						  <br>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>08/19/99</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>TABLE 
+								  RESERVATION</b><br>
+								  <br>
+								  To reserve a table just send an e-mail 
+								  to us with these information :<br>
+								  - a unique group name (we don't want two reservations 
+								  for one group)<br>
+								  - a list of people <b>who are in the REGISTRATION 
+								  page</b><br>
+								  - Number of computers for each person.<br>
+								  <br>
+								  Be careful to not write the name of someone 
+								  who is included in another reservation. </font> 
+							  </td>
+							</tr>
+						  </table>
+						  <br>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>08/19/99</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>FRENCH 
+								  RESERVATIONS ARE CLOSED</b><br>
+								  Due to the number of reservations we got and 
+								  to the number of non-french people who are planning 
+								  to come, french reservations have been closed.<br>
+								  F -> nous n'acceptons plus les réservations 
+								  par chèque. S'il vous plait, si vous venez pour 
+								  jouer, NE VENEZ PAS, laissez la place aux passionnés 
+								  de la démo.<br>
+								  <br>
+								  The <a href="tocome.shtml">How to come</a> page 
+								  has been updated. </font> 
+							  </td>
+							</tr>
+						  </table>
+						  <br>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>08/14/99</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Bad 
+								  News ! <u>Only 300 places for computers and 
+								  400 for peoples</u>. Don't come to LTP to play 
+								  GAMES ! No exceptions ! Same rules for all french 
+								  peoples : Make your reservation and come friday 
+								  morning. For Foreigners, send an email to chandra@???? 
+								  with real names, handles, number of people, 
+								  transportation (car or train) and arriving time 
+								  and date.<br>
+								  <br>
+								  If you have a computer with you, please pay 
+								  your PLACE now !<br>
+								  If you haven't then RESERVE or try to be one 
+								  of the first at the party place. I repeat ! 
+								  Only ~400 peoples entrance.<br>
+								  </font> 
+							  </td>
+							</tr>
+						  </table>
+						  <br>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>08/12/99</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Two 
+								  Road-maps added in the <a href="tocome.shtml">how 
+								  to come</a> page.</font><br>
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>08/05/99</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>DEMOS 
+								  COMPETITION</b><br>
+								  <br>
+								  The 3D card of the demo competition will be 
+								  a Riva Tnt instead of an ATI 128 for accelerated 
+								  compo. If someone want to use another gfx-card 
+								  we will have a Matrox G200.</font><br>
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b><font color="#000000">08/02/99</font></b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>WARNING 
+								  !</b><br>
+								  Lot of people seem to have problems with the 
+								  cache of their browser. So, before worrying 
+								  or sending us e-mails, clear your browser's 
+								  cache and reload the pages !<br>
+								  <br>
+								  I (chandra) will be in vacation until next monday, 
+								  so there will be a lack of updates this week.</font> 
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#999999"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000000"><b>07/28/99</b></font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Registration 
+								  part updated !<br>
+								  <br>
+								  We get a lot of "virtual-automated-pre-reservation". 
+								  The room is virtually full =)<br>
+								  So it is now necessary for you to REALLY register 
+								  (it means giving us some money ;) to be sure 
+								  to get a seat at party place. Have a look to 
+								  the new <a href="reserve.shtml">registration</a> 
+								  part.</font><br>
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#1E1E1E"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">07/27/99</font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">On-line 
+								  payment system added !</font><br>
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#1E1E1E"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">07/21/99</font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">&quot;<a href="tocome.shtml">How 
+								  to come</a>&quot; part added.<br>
+								  Game compo added.</font><br>
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#1E1E1E"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">07/19/99</font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Gfx 
+								  (viewer) and Mods (size) compos updated.</font><br>
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#1E1E1E"> 
+							  <td valign="top" height="15"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">07/16/99</font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="top"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> 
+								  </font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Design 
+								  update by Fra / Pipo</font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+								  </font> 
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr align="LEFT" valign="TOP" bgcolor="#1E1E1E"> 
+							  <td valign="TOP" height="15" align="LEFT"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">07/08/99</font></td>
+							</tr>
+							<tr align="LEFT" valign="TOP"> 
+							  <td valign="TOP" align="LEFT"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Reservation 
+								info for french people added.</font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+								</font></td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="0" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr bgcolor="#1E1E1E" align="LEFT" valign="TOP"> 
+							  <td valign="TOP" height="15" align="LEFT"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">07/06/99</font></td>
+							</tr>
+							<tr> 
+							  <td valign="TOP" align="LEFT"> 
+								<p align=left><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Date, 
+								  time and place infos added.<br>
+								  Compo Rules UPDATED :<br>
+								  - MP3 Competition added.<br>
+								  - Multichannel competition modified (1.44 MB).<br>
+								  - Oldschool competition modified (STE allowed).<br>
+								  - ChipTune competition added.<br>
+								  </font> 
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr bgcolor="#1E1E1E"> 
+							  <td valign="TOP" height="15" align="LEFT"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">06/08/99</font></td>
+							</tr>
+							<tr> 
+							  <td valign="TOP" align="LEFT"> 
+								<p align=justify><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Carpooling 
+								  part added.<br>
+								  Competition part updated.<br>
+								  Bug with editing in the reservation part fixed.<br>
+								  </font> 
+							  </td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="2" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr bgcolor="#1E1E1E"> 
+							  <td valign="TOP" height="15" align="LEFT"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">05/31/99</font></td>
+							</tr>
+							<tr> 
+							  <td valign="TOP" align="LEFT"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Forum 
+								part added.<br>
+								Reservation part added.<br>
+								General Info part added.<br>
+								Competitions part added.<br>
+								</font></td>
+							</tr>
+						  </table>
+						  <BR>
+						  <table cellspacing="0" cellpadding="2" border="0" width=500 bordercolor="#000000">
+							<tr bgcolor="#1E1E1E"> 
+							  <td valign="TOP" height="15" align="LEFT"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">05/30/99</font></td>
+							</tr>
+							<tr> 
+							  <td valign="TOP" align="LEFT"> 
+								<p align=justify><font size="-1" face="Verdana, Arial, Helvetica, sans-serif">New 
+								  website is open. <br>
+								  Html code by Djam / Bomb and Yes / Orange Juice.<br>
+								  Cgi code by Chandra / Orange Juice.<br>
+								  Gfx and Design by Anhk / Move.<br>
+								  Gfx help by Webep.</font> <br>
+							  </td>
+							</tr>
+						  </table>
+						</td>
+					  </tr>
+					</table>
+					<p align="center">&nbsp; <img src="img/banner.gif" width="400" height="40" border="0"><br>
+					  <font face="Verdana, DejaVu Sans, Geneva, sans-serif" size="1"><b><font face="Arial, Helvetica, sans-serif">Add 
+					  this banner to your site and link it to this place !</font></b><br>
+					  <br>
+					  <br>
+					  <img src="img/planetd_jaune_b.gif" width="83" height="43" border="0" usemap="#Maping/1" name="Banner"> 
+					  <br>
+					  </font></p>
+				</tr>
+			  </table>
+				</td>
+			  </tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</center>
+<map name="Maping/1">
+  <area shape="rect" coords="0,31,82,41" href="http://www.certix.fr" target="_blank" alt="Professional Hosting">
+  <area shape="rect" coords="0,5,82,30" href="http://www.planet-d.net" target="_blank" alt="Demomakers Hosting">
+</map>
+</body>
+</html>

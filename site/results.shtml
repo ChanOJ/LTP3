@@ -1,0 +1,415 @@
+<html>
+
+
+
+<head>
+
+	<title>LTP3 - Make A Wish !</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+
+
+
+<body bgcolor="#000000" text="#FFFFFF" link="#FF9900" vlink="#999999">
+
+<center>
+
+  <table cellspacing=0 cellpadding=0 border=0 height="0" width=0>
+
+    <tr>
+
+		
+
+      <td width=230 valign="top"> <script language="JavaScript">
+<!--
+if (document.images) {
+
+img_compos = new Image();
+img_compos.src='on/compos.gif';
+img_contact = new Image();
+img_contact.src='on/contact.gif';
+img_forum = new Image();
+img_forum.src='on/forum.gif';
+img_home = new Image();
+img_home.src='on/home.gif';
+img_infos = new Image();
+img_infos.src='on/infos.gif';
+img_register = new Image();
+img_register.src='on/register.gif';
+img_transport = new Image();
+img_transport.src='on/transport.gif';
+
+}
+
+function di(id,name){
+  if (document.images) {document.images[id].src=eval(name+".src"); }
+}
+
+// function that displays status bar message
+
+function dm(msgStr) {
+  document.returnValue = false;
+  if (document.images) { 
+     window.status = msgStr;
+     document.returnValue = true;
+  }
+}
+var showMsg = navigator.userAgent != "Mozilla/4.0 (compatible; MSIE 4.0; Mac_PowerPC)";
+function dmim(msgStr) {
+  document.returnValue = false;
+  if (showMsg) { 
+    window.status = msgStr;
+    document.returnValue = true;
+  }
+}
+
+function MM_swapImgRestore() { //v2.0
+  if (document.MM_swapImgData != null)
+    for (var i=0; i<(document.MM_swapImgData.length-1); i+=2)
+      document.MM_swapImgData[i].src=document.MM_swapImgData[i+1];
+}
+
+function MM_swapImage() { //v2.0
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src=MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+//-->
+</script>
+
+<table border="0" cellpadding="0" cellspacing="0" width="223">
+<tr>
+  <td rowspan="1" colspan="2"><img name="Nmenu_01_01" src="img/menu_01_01.jpg" width="223" height="150" border="0"></td>
+</tr>
+<tr><!-- row 02 --> 
+  <td rowspan="7" colspan="1" width="74"><img name="Nmenu_02_01" src="img/menu_02_01.jpg" width="74" height="189" border="0"></td>
+  <td rowspan="1"><a href="home.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.home','document.home','on/home.gif','#931951924968')"><img name="home" src="img/home.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 03 --> 
+  <td><a href="info.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.infos','document.infos','on/infos.gif','#931952505156')"><img name="infos" src="img/infos.gif" width="149" height="25" border="0"></a></td>
+</tr>
+<tr><!-- row 05 --> 
+  <td><a href="competition.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.compos','document.compos','on/compos.gif','#931952600421')"><img name="compos" src="img/compos.gif" width="149" height="30" border="0"></a></td>
+</tr>
+<tr><!-- row 07 --> 
+  <td rowspan="1"><a href="/cartrips.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.transport','document.transport','on/transport.gif','#931952666359')"><img name="transport" src="img/transport.gif" width="149" height="26" border="0"></a></td>
+</tr>
+<tr><!-- row 08 --> 
+  <td rowspan="1"><a href="reserve.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.register','document.register','on/register.gif','#931952680750')"><img name="register" src="img/register.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 09 --> 
+  <td rowspan="1"><a href="/forum.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.forum','document.forum','on/forum.gif','#931952739609')"><img name="forum" src="img/forum.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 10 --> 
+  <td rowspan="1"><a href="contact.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.contact','document.contact','on/contact.gif','#931952748609')"><img name="contact" src="img/contact.gif" width="149" height="27" border="0"></a></td>
+</tr>
+<tr><!-- row 11 --> 
+  <td rowspan="1" colspan="1" width="74"> </td>
+  <td rowspan="1" colspan="1" width="155"> 
+    <div align="left"><img name="Nmenu_11_02" src="img/menu_11_02.gif" width="69" height="69" border="0"></div>
+  </td>
+</tr>
+</table> </td>
+
+		
+
+      <td width=530> 
+
+        <table cellspacing=0 cellpadding=0 border=0 width=530 align="left">
+
+			<tr valign="top">
+
+			  <td>
+
+				
+
+              <p align="right"> <img src="img/onlydemo.gif" width="364" height="90"> 
+
+              </p>
+
+				<p align="left">
+
+					
+
+              <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> </font><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font color="#999900"><b><font color="#CCCC00"><font color="#FF9900"> 
+
+              </font></font></b></font></font> 
+
+              <table border="0" width="100%" cellspacing="4" align="CENTER">
+
+				  <tr>
+
+					
+
+                  <td align="RIGHT" valign="TOP"><font size="5" face="Verdana, Arial, Helvetica, sans-serif"><b><a name="compos"></a>f 
+
+                    i n a l - r e s u l t s</b></font></td>
+
+				  </tr>
+
+				  <tr>
+
+					
+
+                  <td align="RIGHT" valign="TOP"><a href="ltp3resf.txt"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">.txt 
+		    file here</font></a></td>
+
+				  </tr>
+
+				  <tr>
+
+					
+
+                  <td align="LEFT" valign="TOP"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font color="#999900"><b><font color="#CCCC00"><font color="#FF9900">PC 
+
+                    DEMOS (12 prods)</font></font></b></font></font>
+
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">1. 
+		      Nightfall (Windows D3D - Orion) 233 pts<br>
+		      2. Synaps (Windows - Cocoon) 138 pts<br>
+		      3. Nothing New (Windows - Popsy Team) 108 pts<br>
+		      4. Little simple demo (Windows - Knights) 90 pts<br>
+		      5. Sexual agression (Windows - T-rex) 82 pts<br>
+		      6. Eat my short (Windows - Condense) 26 pts<br>
+		      7. LTP Invasion (Windows - Kiki productions) 22 pts<br>
+		      8. Celtic Particles (Linux - not seen - Particle System) 
+		      19 pts<br>
+		      9. TicTac (Windows - Skytech) 17 pts<br>
+		      10. Day one (Windows - Polygon) 14 pts<br>
+		      11. Serious? (Linux - SED) 7 pts<br>
+		      12. ??? (Linux - Not seen - ???) 2 pts</font></p>
+		    <p></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900"> 
+		      OLDSCHOOL DEMOS (6 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Eclipse (A500 - Ninja / Scoopex) 258 pts<br>
+		      2. Memorial (ST - Dune) 131 pts<br>
+		      3. Oldies but Goodies (A500 - Melting Pot) 129 pts<br>
+		      4. Oldiez (ST - Blabla) 127 pts<br>
+		      5. The Lost Screen (ST - Oxythan) 73 pts<br>
+		      6. Oldies but Goodies (ST - Melting Pot) 47 pts</font></p>
+		    <p></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900"> 
+		      64K INTROS (4 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Discloned / Haujobb 415 pts<br>
+		      2. 1992 / Eclipse 180 pts<br>
+		      3. Hiatus / Calodox 164 pts<br>
+		      4. Technology 2 / TPOLM 157 pts</font></p>
+		    <p></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900"> 
+		      4K INTROS (6 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. What's art ? (Arthur &amp; Sylex) 192 pts<br>
+		      2. Chemical rainbow (Elseware) 174 pts<br>
+		      3. Matrix Textro (Popsy Team) 115 pts<br>
+		      4. Titou4k (Linux - Titou) 115 pts<br>
+		      5. 4k Boudin (Injection) 89 pts<br>
+		      6. Frapading (Linux - Sed) 49 pts</font></p>
+		    <p></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900"> 
+		      2D GRAPHICS (37 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Leo's world (Made) 245 pts<br>
+		      2. Adam &amp; Eve (Alias) 130 pts<br>
+		      3. Omen666 (Tenshu) 108 pts<br>
+		      4. Angevil (Xman) 90 pts<br>
+		      5. Reve (Underking) 73 pts<br>
+		      6. Reves inacheves (Sicca) 72 pts<br>
+		      7. Ten2 (Nytrik) 69 pts<br>
+		      8. Bloodbath (Acryl) 50 pts<br>
+		      9. Girlie (Eks) 32 pts<br>
+		      10. Rez &agrave; la plage (Sacrilege) 28 pts<br>
+		      11. Acrylic Devotion (Hardfire) 24 pts<br>
+		      12. Sale gosse (Alexkidd) 20 pts<br>
+		      13. Lillarum (Exocet) 18 pts<br>
+		      14. Ltp3 (Taw) 18 pts<br>
+		      15. Dragn (Snakegrunger) 15 pts<br>
+		      16. Ltp3 (Chojin) 15 pts<br>
+		      17. Bjork (Isobel) 12 pts<br>
+		      18. Full straight jacket (Moxica) 12 pts<br>
+		      19. Ds_pingo2 (Mved) 12 pts<br>
+		      20. Evil guyz (RR) 12 pts<br>
+		      21. La croisi&egrave;re s'amuse (Moxica) 11 pts<br>
+		      22. Super guerrier 10 pts<br>
+		      23. Nuclear summer (Zone) 9 pts<br>
+		      24. Pinguinpabo (Odea) 7 pts<br>
+		      25. Tgoe (Virago) 7 pts<br>
+		      26. Tyler (Axee) 6 pts<br>
+		      27. Destructurate (K-simir) 6 pts<br>
+		      28. Lost in wonderland (Uma) 6 pts<br>
+		      29. Butthead1 (Madman) 6 pts<br>
+		      30. Bugs (Torone) 5 pts<br>
+		      31. Pregnancy (MrT &amp; Sacrilege) 5 pts<br>
+		      32. Boyd girl (Boyd) 5 pts<br>
+		      33. Why Dlyr (Dlyr) 4 pts<br>
+		      34. Mitsukake (Angi) 4 pts<br>
+		      35. Birdie (Loonie) 3 pts<br>
+		      36. M&ouml;we (Cp) 3 pts<br>
+		      37. Leuteupeuh (Miko) 2 pts</font></p>
+		    <p></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900"> 
+		      3D GRAPHICS (13 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Cave (Alias) 271 pts<br>
+		      2. Aaaaarrrrgghhh (The Fakir) 157 pts<br>
+		      3. The Future Is In The Ball (Been) 127 pts<br>
+		      4. Crusader (Kanewood) 111 pts<br>
+		      5. Wispring (Xman) 99 pts<br>
+		      6. Xunk (Krafton) 94 pts<br>
+		      7. Marsu (Malon) 43 pts<br>
+		      8. Hyperion42 (Muedhiver) 42 pts<br>
+		      9. Welcome to my reality (Ehron) 30 pts<br>
+		      10. Space Frontier (Garfield) 23 pts<br>
+		      11. Evasion (Nelios) 22 pts<br>
+		      12. Aurorehp2 (Lenudist) 15 pts<br>
+		      13. Myth (Programmed) 11 pts</font></p>
+		    <p></p>
+		    <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FF9900"> 
+		      OLDSCHOOL GFX (15 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Leo's friend (Mad&eacute;) 246 pts<br>
+		      2. Eyeskool (Xman) 159 pts<br>
+		      3. Deux chats... (Danube) 74 pts<br>
+		      4. Foggy (Mic) 69 pts<br>
+		      5. Woody (Fred) 64 pts<br>
+		      6. Yeti loves 4bits gfx (Moxica) 53 pts<br>
+		      7. Icu (Acryl) 51 pts<br>
+		      8. Aigle (Zone) 49 pts<br>
+		      9. Serv (Alias) 47 pts<br>
+		      10. Herve (Snake Grunger) 39 pts<br>
+		      11. Ltp3 (Isobel) 22 pts<br>
+		      12. Stop (Sacrilege) 18 pts<br>
+		      13. Ltp15 (Dlyr) 17 pts<br>
+		      14. Lum (Angi) 10 pts<br>
+		      15. Oops (Exocet) 9 pts</font></p>
+		    <p></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900"> 
+		      CHIPTUNES (11 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Little Swedish Girl (Rez / TPOLM) 309 pts<br>
+		      2. Miss Kebab (Traven / Syndrome) 180 pts<br>
+		      3. Sunstreak (Radix / TPOLM) 165 pts<br>
+		      4. Chip Or Not (Kenet / Ribbon) 117 pts<br>
+		      5. 4B33 (Brothom States / Orange) 58 pts<br>
+		      6. Passage (Kalachnikov / MDR) 49 pts<br>
+		      7. Holliday Getaway (Loonie / Digisonix) 41 pts<br>
+		      8. Biscuit Break (Hardfire / Spaceballs) 39 pts<br>
+		      9. Ragout De Patates (Silver / ITS) 39 pts<br>
+		      10. Feel dis Chipsong (Xenon / DGRT) 30 pts<br>
+		      11. Runaway Kid (Jiku / TPOLM) 22 pts</font></p>
+		    <p></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900"> 
+		      4 CHANNELS MODULES (7 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. A face in the crowd (Will Be / Theralite) 192 pts<br>
+		      2. Groovin moomin (Radix / TPOLM) 164 pts<br>
+		      3. Pure old way (Red Ribbon) 151 pts<br>
+		      4. Grenadine Whirlpool (Hardfire / Spaceballs) 96 pts<br>
+		      5. High position (Tawny / Kikiprods) 83 pts<br>
+		      6. Schtroumpf (Benji / Just for fun) 74 pts<br>
+		      7. Funkeep (Kalachnikov / MDR) 68 pts</font></p>
+		    <p></p>
+		    <p> <font size="2" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FF9900">MULTICHANNELS 
+		      MODULES (15 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. After birth (Rez / TPOLM) 104 pts<br>
+		      2. Batman love my god (Med/Trashcan) 83 pts<br>
+		      3. Dwalji (Benji/Jff) 80 pts<br>
+		      4. I realize (Radix / TPOLM) 73 pts<br>
+		      5. Truites powah' (Red ribbon) 69 pts<br>
+		      6. Wireless flows (Harfire Spaceballs) 66 pts<br>
+		      7. No sense (Kenet) 57 pts<br>
+		      8. Param&egrave;tre 333 (Xenon / DGRT) 52 pts<br>
+		      9. Exodia (Silver / Intense) 48 pts<br>
+		      10. From dust to dust (Frodon) 37 pts<br>
+		      11. Out of mind (Mr T / Move) 36 pts<br>
+		      12. O reason (Kalachnikov / MDR) 35 pts<br>
+		      13. It's raining on venus (Torone) 31 pts<br>
+		      14. Orbus Harmonica (Bedrael) 30 pts<br>
+		      15. Battery love (Loonie) 20 pts</font></p>
+		    <p></p>
+		    <p> <font size="2" face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#FF9900">MP3 
+		      MUSICS (16 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Blood on my hands (Zodiak / Cascada) 114 pts<br>
+		      2. Move on' (Will be / Theralite) 102 pts<br>
+		      3. Yuki satelites (Radix / TPOLM) 63 pts<br>
+		      4. Contact (Torone) 54 pts<br>
+		      5. Paris 1999 (Kenet) 51 pts<br>
+		      6. Deep world (Kalachnikov/MDR) 49 pts<br>
+		      7. Dark legion (Koronis / Shoon) 42 pts<br>
+		      8. The fall (Mellow-d) 40 pts<br>
+		      9. Mystic (Skiller) 37 pts<br>
+		      10. Psycho (doomy) 34 pts<br>
+		      11. Bass tunes (Programmed) 32 pts<br>
+		      12. After a lot of tries (The rew / Nostalgia) 30 pts<br>
+		      13. Saturation (Loonie / Digisonix) 28 pts<br>
+		      14. Qui dirige le man&egrave;ge local ? (Sergeant slayer) 
+		      22 pts<br>
+		      15. Planete Lune (Alkama) 11 pts<br>
+		      16. Bajanbor (Uma) 7 pts</font></p>
+		    <p></p>
+		    <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900">WEBSITES 
+		      (3 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Falken Zone (Falken / CocoOn ^ Nomad) 191 pts<br>
+		      2. Sicca Area (Sicca / CYmagine) 164 pts<br>
+		      3. CYmagine -official site (Bobjpg / CYmagine) 138 pts</font></p>
+		    <p></p>
+		    <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900">WILDS 
+		      (7 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Lego Troopers (Mentasm) 435 pts<br>
+		      2. Scream (Moxica) 244 pts<br>
+		      3. The Dark Vision (KP Picture) 153 pts<br>
+		      4. 512 Cookies (Melting Pot) 68 pts<br>
+		      5. Bouffon With Live Action (Byro &amp; ?) 39 pts<br>
+		      6. Free Da Duck (Aegis &amp; X-Men) 27 pts<br>
+		      7. Teddy's Fears () 21 pts</font></p>
+		    <p></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b><font color="#FF9900"> 
+		      GAMES (4 prods)</font></b></font></p>
+		    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+		      1. Stupid-kats (Dim4) 296 pts<br>
+		      2. Tiny-Oid (RV / Beyond) 229 pts<br>
+		      3. GTron (Goupil Brother, Benji &amp; Exocet / JFF) 149 
+		      pts<br>
+		      4. Pingyk (Loyik) 142 pts</font></p>
+		    <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font color="#999900"><b><font color="#CCCC00"></font></b></font></font></td>
+
+				  </tr>
+
+				</table>
+
+				
+
+            </td>
+
+			</tr>
+
+			</table>
+
+		</td>
+
+	</tr>
+
+</table>
+
+</center>
+
+</body>
+
+</html>
