@@ -283,10 +283,8 @@ def add_font_fallback(text):
 
 
 # Personal data of the 1999 pages that is not published (each pattern must match, so that a
-# change of the raw files cannot silently publish it): postal address of the association, phone
-# number of the party place, lists of registered people.
+# change of the raw files cannot silently publish it): phone number of the party place, lists of registered people.
 REDACTIONS = [
-    (re.compile(r"26, quai Bizeau<br>\s*77400 Pomponne"), "[postal address removed]", "home.shtml", 1),
     (re.compile(r"01 69 49\s+64 58"), MASK, "home.shtml", 2),
     # contact.shtml: the e-mail links are removed by the generic pass; say so on the page.
     (re.compile(r"(If you want to contact some organizers then write to :)<br>"),

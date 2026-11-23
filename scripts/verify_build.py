@@ -42,7 +42,6 @@ LEFTOVERS = [
     ("e-mail address", re.compile(r"[A-Za-z0-9._+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+")),
     ("mailto:", re.compile(r"(?i)mailto:")),
     ("French phone number", re.compile(r"(?<!\d)0[1-9](?:[ .]?\d{2}){4}(?!\d)")),
-    ("postal address (quai Bizeau / Pomponne)", re.compile(r"(?i)bizeau|pomponne")),
     ("hit counter (cnxweb.com)", re.compile(r"(?i)cnxweb")),
     ("ftp URL with credentials", re.compile(r"(?i)ftp://[^\s:/@\"'<>]+:[^\s/@\"'<>]+@")),
 ]

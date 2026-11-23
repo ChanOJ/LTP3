@@ -50,8 +50,8 @@ Source: `Sites web/ltp3/http/` on the NAS (the site root) and `Sites web/ltp3/lt
 - **Registration**: `reserve.shtml` keeps its text, but the lists of the people who had
   registered (boys online, boys by cheque, girls, foreigners, organizers: handles and groups) are
   replaced by a notice. The live form `reserve.asp` and the `secure/` copies are not published.
-- **Redacted**: the postal address of the association (cheque order for T-shirts, `home.shtml`)
-  and the phone number of the party place (2 occurrences); e-mail links of `home.shtml`,
+- **Redacted**: the phone number of the party place (2 occurrences, `home.shtml`; the postal address
+  of the Orange Juice association, for the T-shirt cheques, is kept as in the original); e-mail links of `home.shtml`,
   `reserve.shtml` and `contact.shtml` (`contact.shtml` says so on the page); e-mail domains in the
   forum messages (`nick@????`).
 - **Added**: nothing beyond the notices above. `face="verdana"` gets sans-serif fallbacks
