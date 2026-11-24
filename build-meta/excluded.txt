@@ -2,3 +2,8 @@ getadmin.asp
 menu.inc
 menuasp.inc
 reserve.asp
+img/cards.gif
+img/compos_big.gif
+img/menu.jpg
+img/menu_00.gif
+img/payonline.jpg

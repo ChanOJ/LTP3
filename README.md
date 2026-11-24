@@ -40,7 +40,7 @@ DNS is not managed here: the hostname is a CNAME to `<pull zone>.b-cdn.net` at I
 Source: `Sites web/ltp3/http/` on the NAS (the site root) and `Sites web/ltp3/ltpdata/forum/`
 (the forum flat files), copied into `private/`.
 
-- **URLs kept.** `index.html` (logo page), `home.shtml`, `info.shtml`, `competition.shtml`,
+- **URLs kept.** `index.html` (logo page, now redirects to `home.shtml`), `home.shtml`, `info.shtml`, `competition.shtml`,
   `results.shtml`, `ltp3resf.txt`, `bilan.shtml`, `tocome.shtml`, `reserve.shtml`, `contact.shtml`,
   `tshirt.html`, `img/`, `on/`: same names. The SSI include of `menu.inc` is inlined; the `.shtml`
   pages are plain HTML served as `text/html`.
@@ -57,17 +57,23 @@ Source: `Sites web/ltp3/http/` on the NAS (the site root) and `Sites web/ltp3/lt
 - **Redacted**: the phone number of the party place (2 occurrences, `home.shtml`; the postal address
   of the Orange Juice association, for the T-shirt cheques, is kept as in the original); e-mail links of `home.shtml`,
   `reserve.shtml` and `contact.shtml` (`contact.shtml` says so on the page); e-mail domains in the
-  forum messages (`nick@????`).
-- **Added**: nothing beyond the notices above. `face="verdana"` gets sans-serif fallbacks
+  forum messages and `home.shtml` (`nick@????`), except the pseudonymous addresses listed in
+  `KEEP_EMAILS` (`scripts/statify.py`, kept whole since 2026-11-24: `chandra@citeweb.net`,
+  `warp@citeweb.net`, `ior@scene.org`, `tpolm@tpolm.com`, `michiel@bevelander.nl`). Rule (2026-11-24,
+  orchestrator skill): the domain is masked only when the local part holds a family name; a first name or a
+  nick keeps the full address.
+- **Added** (2026-11-24): a link back to the home page on `tshirt.html`, and a title for `tshirt.html` and `index.html`. `face="verdana"` gets sans-serif fallbacks
   (`DejaVu Sans, Geneva, sans-serif`) for systems without Verdana.
 - **Not published** (`scripts/exclude-globs.txt`): every `.asp` source (`getadmin.asp`,
   `reserve.asp`, ...), `menu.inc` and `menuasp.inc`, `votes.bak`, `csv2sql_*.vbs`, the shell
   dotfiles of the server (`.bash*`, `.Xdefaults`, `.inputrc`) and the `ltpdata` folders `logins`
   and `carlogins` (credentials, car trips), `french.dic` and `#total.txt`. None of them was
   copied into `private/`, except the forum.
-- **Left as they were**: dead external links (planet-d.net mirrors, scene.org FTP, ratp.fr, sponsors)
-  and two files that were already missing in 1999: `ltp3-invitation.zip` (the invitation intro,
-  linked as "local") and `img/carte2.jpg`.
+- **Left as they were**: dead external links (planet-d.net mirrors, scene.org FTP, ratp.fr, sponsors).
+- **Removed** (2026-11-24): the two local links to files already missing in 1999, `ltp3-invitation.zip`
+  ("local", home page) and `img/carte2.jpg` ("bigger map", tocome page); an empty link to `ltp3resf.txt`
+  on `bilan.shtml`; five unused images (`img/cards.gif`, `img/compos_big.gif`, `img/menu.jpg`,
+  `img/menu_00.gif`, `img/payonline.jpg`).
 - **Not part of this archive**: the event site (`ltp3/party/`, `party_org/`: another archive).
 
 ## Wayback search (2026-11-23)
@@ -115,7 +121,7 @@ python3 scripts/preview.py 3719
 
 ## Removal requests
 
-Pages that list or describe people end with a small footer, "To be removed from this page, contact me." (a `mailto:` link). `scripts/statify.py` adds it (`is_people_page`), so it survives rebuilds; `scripts/verify_build.py` leaves it out of its `mailto:` and e-mail checks.
+Pages that show a family name, a full postal address or an e-mail local part in clear end with a small footer, "To be removed from this page, contact me." (a `mailto:` link), limited to the site width: `home.shtml` and `forum.html` today. Nick-only pages (contact, results) carry none. `scripts/statify.py` adds it (`is_people_page`), so it survives rebuilds; `scripts/verify_build.py` leaves it out of its `mailto:` and e-mail checks.
 
 ## Deploying
 

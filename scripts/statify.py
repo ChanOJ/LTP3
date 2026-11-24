@@ -29,7 +29,7 @@ ENC = "iso-8859-1"
 # ---- removal-request footer: added to every page that lists or describes people
 REMOVAL_MARK = 'id="removal-note"'
 REMOVAL_NOTE = (
-    '<div id="removal-note" style="clear:both;margin:28px auto 8px;padding:6px 8px 0;width:60%;'
+    '<div id="removal-note" style="clear:both;margin:28px auto 8px;padding:6px 8px 0;width:760px;max-width:96%;'
     'border-top:1px solid #808080;text-align:center;font:10px/14px Verdana,Arial,Helvetica,sans-serif;'
     'color:#808080;background:transparent">To be removed from this page, '
     '<a href="mailto:chandra_oj@pm.me" style="color:#808080;text-decoration:underline">contact me</a>.</div>'
@@ -45,8 +45,10 @@ def add_removal_note(text):
         return text[: m.start()] + REMOVAL_NOTE + "\n" + text[m.start():]
     return text + "\n" + REMOVAL_NOTE + "\n"
 
-# Pages that list or describe people (organizers, results, forum posts).
-PEOPLE_PAGES = {"contact.shtml", "results.shtml", "forum.html"}
+# Pages that show a family name, a full postal address or an e-mail local part in clear
+# (home.shtml: the association's postal address and "chandra@????"; forum.html: e-mail local parts).
+# Nick-only pages (contact, results) carry no footer.
+PEOPLE_PAGES = {"home.shtml", "forum.html"}
 
 
 def is_people_page(rel):
@@ -282,11 +284,17 @@ MAILTO_A_RE = re.compile(r"<a\b[^>]*href\s*=\s*[\"']?mailto:[^>]*>(.*?)</a\s*>",
 EMAIL_RE = re.compile(r"([A-Za-z0-9._+-]+)@([A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+)")
 
 
+# Pseudonymous addresses kept whole (2026-11-24): the local part is a handle, the domain is a
+# host of the party or of a nick. Any other address keeps its domain masked.
+KEEP_EMAILS = {"chandra@citeweb.net", "warp@citeweb.net", "ior@scene.org", "tpolm@tpolm.com", "michiel@bevelander.nl"}
+
+
 def redact_emails(text):
-    """mailto: links become plain text; `local@domain` becomes `local@????` (layout kept, domain masked)."""
+    """mailto: links become plain text; `local@domain` becomes `local@????` (layout kept, domain masked),
+    except the KEEP_EMAILS addresses, which stay whole."""
     text = MAILTO_A_RE.sub(lambda m: m.group(1), text)
     text = re.sub(r"(?i)mailto:", "", text)
-    return EMAIL_RE.sub(lambda m: m.group(1) + "@" + MASK, text)
+    return EMAIL_RE.sub(lambda m: m.group(0) if m.group(0).lower() in KEEP_EMAILS else m.group(1) + "@" + MASK, text)
 
 
 def strip_ftp_creds(ctx, text):
@@ -317,6 +325,21 @@ REDACTIONS = [
     # contact.shtml: the e-mail links are removed by the generic pass; say so on the page.
     (re.compile(r"(If you want to contact some organizers then write to :)<br>"),
      r'\1 <i>(archived: the e-mail addresses are not published)</i><br>', "contact.shtml", 1),
+    # Dead local links, removed (2026-11-24): the invitation zip and the bigger map were never published.
+    (re.compile(r'<a href="ltp3-invitation\.zip">local</a>\s*/\s*'), "", "home.shtml", 1),
+    (re.compile(r'<p><a href="img/carte2\.jpg" target="_blank">Here</a> is a bigger\s*'
+                r'map \(416 kB, 1987\) for those who come from North or East\.</p>\s*'), "", "tocome.shtml", 1),
+    # Empty anchor on bilan.shtml: an invisible link to ltp3resf.txt.
+    (re.compile(r'<a href="ltp3resf\.txt"></a>'), "", "bilan.shtml", 1),
+    # Root page: a logo that linked to home.shtml only; "/" now goes to the home page.
+    (re.compile(r'<title>animlogo\.htm </title>'),
+     '<title>LTP3 - Lucky &amp; Tigrou Party 3</title>\n'
+     '<meta http-equiv="refresh" content="0; url=home.shtml">', "index.html", 1),
+    (re.compile(r'</div>'), '<p><a href="home.shtml">LTP3 home page</a></p>\n</div>', "index.html", 1),
+    # T-shirt page: no title, no way back.
+    (re.compile(r'<HTML>'), '<HTML>\n<title>LTP3 - T-shirt</title>', "tshirt.html", 1),
+    (re.compile(r'<IMG src="img/tshirt\.jpg">'),
+     '<IMG src="img/tshirt.jpg">\n<p><a href="home.shtml">Back to LTP3</a></p>', "tshirt.html", 1),
 ]
 REG_LIST_NOTICE = (
     '<p><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#808080">'
