@@ -18,3 +18,8 @@ carlogins
 .inputrc
 csv2sql_*.vbs
 votes.bak
+img/cards.gif
+img/compos_big.gif
+img/menu_00.gif
+img/menu.jpg
+img/payonline.jpg

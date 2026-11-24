@@ -46,6 +46,8 @@ LEFTOVERS = [
     ("ftp URL with credentials", re.compile(r"(?i)ftp://[^\s:/@\"'<>]+:[^\s/@\"'<>]+@")),
 ]
 PAGE_EXT = (".htm", ".html", ".shtml")
+# Addresses kept whole on purpose (statify.py KEEP_EMAILS): pseudonyms, see README.
+KEEP_EMAILS = {"chandra@citeweb.net", "warp@citeweb.net", "ior@scene.org", "tpolm@tpolm.com", "michiel@bevelander.nl"}
 TEXT_EXT = PAGE_EXT + (".txt", ".c")
 ASP_RENDERED = {"forum.asp": "forum.html", "cartrips.asp": "cartrips.html"}
 KEY_PAGES = ("index.html", "home.shtml", "info.shtml", "competition.shtml", "results.shtml", "bilan.shtml",
@@ -182,7 +184,12 @@ def main(argv=None):
             for label, rx in LEFTOVERS:
                 if label == "form tag" and not rel.lower().endswith(PAGE_EXT):
                     continue
-                if rx.search(t):
+                if label == "e-mail address":
+                    # pseudonymous addresses kept whole by statify.py (KEEP_EMAILS) are allowed
+                    found = [m.group(0) for m in rx.finditer(t) if m.group(0).lower() not in KEEP_EMAILS]
+                    if found:
+                        hits[label].append(rel)
+                elif rx.search(t):
                     hits[label].append(rel)
     for label, _ in LEFTOVERS:
         if hits[label]:

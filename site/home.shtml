@@ -135,8 +135,7 @@ function MM_swapImage() { //v2.0
 				  <td valign=top> <font face="arial" size="-1"> </font> 
 					<p align="center"> <font face="Verdana, DejaVu Sans, Geneva, sans-serif" size="1"><br>
 					  </font> <font face="Arial, Helvetica, sans-serif" size="2"><b>Get 
-					  the invitation intro ! (1.63 MB) <a href="ltp3-invitation.zip">local</a> 
-					  / <a href="ftp://ftp.scene.org/pub/incoming/TAKEOVER99/demo/ltp3-syndrome.zip">scene.org</a><br>
+					  the invitation intro ! (1.63 MB) <a href="ftp://ftp.scene.org/pub/incoming/TAKEOVER99/demo/ltp3-syndrome.zip">scene.org</a><br>
 					  </b></font><br>
 					<p align="right"> 
 					  <center>
@@ -306,7 +305,7 @@ function MM_swapImage() { //v2.0
 								  400 for peoples</u>. Don't come to LTP to play 
 								  GAMES ! No exceptions ! Same rules for all french 
 								  peoples : Make your reservation and come friday 
-								  morning. For Foreigners, send an email to chandra@???? 
+								  morning. For Foreigners, send an email to chandra@citeweb.net 
 								  with real names, handles, number of people, 
 								  transportation (car or train) and arriving time 
 								  and date.<br>
@@ -538,5 +537,6 @@ function MM_swapImage() { //v2.0
   <area shape="rect" coords="0,31,82,41" href="http://www.certix.fr" target="_blank" alt="Professional Hosting">
   <area shape="rect" coords="0,5,82,30" href="http://www.planet-d.net" target="_blank" alt="Demomakers Hosting">
 </map>
+<div id="removal-note" style="clear:both;margin:28px auto 8px;padding:6px 8px 0;width:760px;max-width:96%;border-top:1px solid #808080;text-align:center;font:10px/14px Verdana,Arial,Helvetica,sans-serif;color:#808080;background:transparent">To be removed from this page, <a href="mailto:chandra_oj@pm.me" style="color:#808080;text-decoration:underline">contact me</a>.</div>
 </body>
 </html>
